@@ -1,0 +1,155 @@
+/*CLUSTERS DEL MAPA*/
+
+/*
+
+At your parent DIV add
+
+display:table;
+and at your child element add
+
+ display:table-cell;
+ vertical-align:middle;
+
+*/
+
+.marker-cluster-radius60 div, 
+.marker-cluster-radius50 div,
+.marker-cluster-radius40 div,
+.marker-cluster-radius30 div,
+.marker-cluster-radius20 div
+{
+	border:1px solid #ffffff;
+	background-color:#d33333;
+	border-radius: 30px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	background-clip: padding-box;
+	text-align:center;
+    z-index: 233;
+}
+
+.marker-cluster-radius60 div span,
+.marker-cluster-radius50 div span,
+.marker-cluster-radius40 div span,
+.marker-cluster-radius30 div span,
+.marker-cluster-radius20 div span{
+	text-align:center;
+	position:relative;
+    width:100%;
+}
+
+/****************************************************/
+/* CLUSTER 60
+/****************************************************/
+.marker-cluster-radius60 {
+	background-clip: padding-box;
+	border-radius: 30px;
+	}
+
+.marker-cluster-radius60 div {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	margin-left: -30px;
+	margin-top: -22px;
+}
+
+.marker-cluster-radius60 div span{
+	margin-top:25px;
+	top:20px;
+	color:white;
+}
+/****************************************************/
+/* CLUSTER 50
+/****************************************************/
+.marker-cluster-radius50 {
+	border-radius: 25px;
+	}
+
+.marker-cluster-radius50 div {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	margin-left: -20px;
+	margin-top: -18px;
+}
+
+.marker-cluster-radius50 div span{
+	margin-top:20px;
+	top:15px;
+	text-align:Center;
+	color:white;
+}
+/****************************************************/
+
+/****************************************************/
+/* CLUSTER 40
+/****************************************************/
+.marker-cluster-radius40 {
+	border-radius: 20px;
+	}
+
+.marker-cluster-radius40 div {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: -16px;
+	margin-top: -18px;
+}
+
+.marker-cluster-radius40 div span{
+	margin-top:0px;
+	top:10px;
+	left:0px;
+	color:white;
+}
+/****************************************************/
+/****************************************************/
+/* CLUSTER 30
+/****************************************************/
+.marker-cluster-radius30 {
+	border-radius: 15px;
+	}
+
+.marker-cluster-radius30 div {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	margin-left: -11px;
+	margin-top: -12px;
+}
+
+.marker-cluster-radius30 div span{
+	margin-top:0px;
+	top:5px;
+	color:white;
+	font-size:0.9em;
+}
+/****************************************************/
+
+
+/****************************************************/
+/* CLUSTER 20
+/****************************************************/
+.marker-cluster-radius20 {
+
+	}
+
+.marker-cluster-radius20 div {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	margin-left: -11px;
+	margin-top: -12px;
+}
+
+.marker-cluster-radius20 div span{
+	margin-top:0px;
+	top:7px;
+	font-size:0.9em;
+	color:white;
+}
+
+.leaflet-div-icon {
+    background: none;
+    border: 0px;
+}
